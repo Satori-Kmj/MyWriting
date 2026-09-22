@@ -1,0 +1,16 @@
+- insert:
+
+    - id: tool-logger
+      name: '__MYWRITING_SRC_URL__/tool-logger.ts'
+
+    - id: save-story-artifact
+      name: '__MYWRITING_SRC_URL__/save-story-artifact.ts'
+
+    - id: commit-story-draft
+      name: '__MYWRITING_SRC_URL__/commit-story-draft.ts'
+
+    - id: commit-story-update
+      name: '__MYWRITING_SRC_URL__/commit-story-update.ts'
+
+    - id: mywriting-tool-filter
+      name: '__MYWRITING_SRC_URL__/mywriting-tool-filter.ts'

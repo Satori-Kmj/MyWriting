@@ -1,0 +1,56 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# User-owned writing configuration
+/config/writing-system.md
+/reference/terminology.md
+
+# Private character profiles
+/reference/characters/*
+!/reference/characters/.gitkeep
+!/reference/characters/EXAMPLE 人物档案.md
+
+# Runtime input and generated artifacts
+/input/*
+!/input/.gitkeep
+
+/work/*
+!/work/.gitkeep
+
+/output/*
+!/output/.gitkeep
+
+/history/*
+!/history/.gitkeep
+
+# Runtime state
+/state/*
+!/state/.gitkeep
+!/state/rag/
+/state/rag/*
+!/state/rag/.gitkeep
+!/state/rag/EXAMPLE状态文件.md
+
+# Machine-local DSH configuration
+/plugin/cordis.patch.yml
+/plugin/*.ymlbu
+
+# Dependencies and build/test output
+/plugin/node_modules/
+/plugin/dist/
+/plugin/coverage/
+*.tsbuildinfo
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
